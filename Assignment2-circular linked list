@@ -1,1 +1,22 @@
+Assignment II- Circular Linked List
+
+Q1. While traversing a single-circular linked list, which condition establishes that the traversing element/variable has reached the first element?
+
+Ans- While traversing a single-circular linked list, when the traversing element reaches the value of the pointer of the head node then it establishes that the traversing element has reached the first element.
+
+Code module to implement this-
+bool isFirst(node* head, node* current){
+   return (current == head);
+}
+ 
+#isFirst is a function that can check whether the current node is the first node or not.
+
+Q2. What are the practical applications of a circular linked list? (Try to find applications in your respective fields)
+Ans-  1. Music player: different apps like Spotify, gaana, prime music, etc use a circular linked list for smooth functioning of the playlist.
+
+         2. Browser: different tabs are linked to each other with the help of CLL.
+    
+         3. Audio/Video streaming: It uses a circular linked list as different bits containing pieces of information of the next and previous node align themself after they reach their address.
+
+         4. Circular Escalator
 
