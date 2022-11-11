@@ -38,7 +38,7 @@ void selectionSort(int array[], int size)
 }
 
 // driver code int main() {
-int data[] = {20, 12, 10, 15, 2};
+int data[] = {10 , 8 , 4 , 9 , 1};
 int size = sizeof(data) / sizeof(data[0]); 
 selectionSort(data, size);
 cout << "Sorted array in Ascending Order:\n"; 
@@ -72,7 +72,7 @@ void printArray(int arr[], int size)
 // Driver code
 int main()
 {
-   int arr[] = { 5, 1, 4, 2, 8};
+   int arr[] = {10, 8, 4, 9 ,1};
    int N = sizeof(arr) / sizeof(arr[0]); 
    bubbleSort(arr, N);
    cout << "Sorted array: \n";
